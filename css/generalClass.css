@@ -1,0 +1,12 @@
+/*星号样式*/
+.start{
+	color:#ff87a5;
+}
+/*下划线样式*/
+.downDottedLine{
+	border-bottom:1px dotted #7d7e81;
+}
+/*缩进15px样式*/
+.textIndexStyle{
+	text-indent: 15px;
+}

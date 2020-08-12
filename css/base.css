@@ -1,0 +1,33 @@
+body{
+	background-color:#fff;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:"Microsoft Yahei",微软雅黑;
+	min-width: 1200px;
+	/*这里设置最小宽度，为什么页面还是可以缩放到1200px以下？*/
+	/*还有就是缩放到一定程度之后，字体就无法缩放了，这是为什么？*/
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+p{
+	margin:0;
+	padding:0;
+}
+h1,h2,h3{
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+ul,li{
+	
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+td{
+	padding-top:6px;
+	padding-bottom:6px;
+}

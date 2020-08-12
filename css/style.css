@@ -1,0 +1,268 @@
+/*头部*/
+.header{
+	height:100px;
+	width:100%;
+	padding-top:12.5px;
+	padding-bottom:12.5px;
+	background-color:#efefef;
+}
+.header__wrap{
+	height:100px;
+	width:1266px;
+	margin:0 auto;
+	position:relative;
+
+}
+.header__wrap__logo{
+	height:100px;
+	width:375px;
+	color:#333;
+	background:url("../素材/logo.png") left no-repeat;
+	background-size:100px 100px;
+	font-size:26px;
+	position:relative;
+	float:left;
+	text-indent:115px; 
+	line-height:100px;
+}
+.header__wrap__dividerLine{
+	font-size:32px;
+	height:100px;
+	line-height:95px;
+	margin-left:10px;
+	position:relative;
+	float:left;
+}
+.header__wrap__customerService{
+	font-size:17px;
+	color:#666;
+	position:relative;
+	line-height:100px;
+	float:left;
+	margin-left:10px;
+} 
+.header__rightContent{
+	height:100px;
+	width:660px;
+	line-height:100px;
+	font-size:18px;
+	height:100px;
+	color:#000;
+	position:relative;
+	float:right;
+}
+.header__rightContent-feedback{
+	color:#000;
+	position:relative;
+	float:left;
+	margin-right:5px;
+}
+.header__rightContent-postbox{
+	/*color:#fb7403;*/
+	line-height:100px;
+	position:relative;
+	float:left;
+	margin-right:5px;
+}
+.header__rightContent-othertext{
+	float:left;
+}
+.header__rightContent-login{
+	position:relative;
+	float:left;
+}
+.header__rightContent-register{
+	position:relative;
+	float:left;
+}
+.header__rightContent-myImooc{
+	width:150px;
+	color:#000;
+	position:relative;
+	float:left;
+	margin-left:5px;
+}
+.header__rightContent-myImooc ul{
+	display: none;
+	border:1px solid rgb(251,116,3);
+	width:185px;
+	height:330px;
+	background-color:#fff;
+	position:absolute;
+	left:0px;
+	top:70px;
+}
+.header__rightContent-myImooc__list{
+	font-size:13px;
+	width:185px;
+	line-height: 30px;
+	text-indent: 18px;
+}
+.header__rightContent-myImooc__list a{
+	display: block;
+	width:170px;
+	margin:0 auto;
+	color:#7d7e81;
+}
+.header__rightContentr-phoneMark{
+	background:url("../素材/phone.png") left center no-repeat;
+	line-height:100px;
+	background-size:20px 30px;
+	width:82px;
+	padding-left:24px;
+	position:relative;
+	float:right;
+}
+.dividerLine{
+	height:2px;
+	background-color:#2487c9;
+}
+
+/*主体*/
+.section{
+	height:802px;
+	width:100%;
+	background-color: #fff;
+}
+.section__position{
+	width:1260px;
+	height:42px;
+	font-size:19px;
+	line-height:42px;
+	margin:0 auto;
+}
+.section__position_content{
+	color:#636363;
+}
+.section__accountInformation{
+	margin:0 auto;
+	height:630px;
+	width:1260px;
+	border:solid #fb7403 1px;
+	border-radius: 5px;
+}
+.section__accountInformation__title{
+	height:43px;
+	background-color:#fb7403;
+	color:#fff;
+	border-radius: 5px;
+	font-size:21px;
+	text-indent: 15px;
+	line-height:43px;
+
+}
+.section__accountInformation__content{
+	height:587px;
+
+}
+.section__accountInformation__content__item{
+	margin-top:38px;
+	margin-left:250px;
+	height:403px;
+	width:780px;
+	font-size:16px;
+}
+.section__accountInformation__content__item input{
+	height:20px;
+	width:210px;
+	font-size:14px;
+}
+.section__accountInformation__content__item select{
+	height:28px;
+	width:214px;
+	font-size:14px;
+}
+.section__accountInformation__content__item-username{
+	letter-spacing: 4px;
+}
+.section__accountInformation__content__item-username td:nth-child(1){
+	width:10px;
+}
+.section__accountInformation__content__item-username td:nth-child(2){
+	width:90px;
+}
+.section__accountInformation__content__item-username-tip{
+	text-indent: 15px;
+	color:rgb(251,116,3);
+	letter-spacing: 0px;
+}
+.section__accountInformation__content__item-loginPassword-block{
+	width:42px;
+	height:7px;
+	background-color:#ddd;
+	margin:4px;
+	float:left;
+}
+.section__accountInformation__content__item-loginPassword-block1{
+	background-color: red;
+	margin-left:15px;
+}
+.section__accountInformation__content__item-name-tip{
+	position: relative;
+	text-indent: 15px;
+	color:rgb(251,116,3);
+	text-decoration:underline;
+}
+.section__accountInformation__content__item-name-rule{
+	position: absolute;
+	display: none;
+	background-color: #fff;
+	border: 1px solid #7bb9e1;
+	font-size: 16px;
+	width:500px;
+	left:112px;
+	padding: 10px;
+}
+.section__accountInformation__content__item-name-rule > p{
+	color:#818181;
+	line-height: 35px
+}
+.section__accountInformation__content__item-IDnumber-tip{
+	text-indent: 15px;
+
+}
+.section__accountInformation__content__item-phoneNumber-tip{
+	text-indent: 15px;
+	color:rgb(251,116,3);
+}
+.section__accountInformation__content__confirmProtocol{
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:20px;
+}
+.section__accountInformation__content__confirmProtocol input{
+	width:18px;
+	position:relative;
+	top:3px;
+}
+.section__accountInformation__content__confirmProtocol-protocol{
+	color:#006ee1;
+}
+.section__accountInformation__content__netStep{
+	height:38px;
+	width:230px;
+	font-size: 18px;
+	color:#fff;
+	border-radius: 5px;
+	border:none;
+	margin-left:405px;
+	margin-top:50px;
+	background-color:#fb7403;
+}
+/*底部*/
+.footer{
+	background-color:#dcdcdc;
+	height:90px;
+	padding-top:12px;
+}
+.footer__text{
+	text-align:center;
+	font-size:19px;
+	color:#99a9c2;
+	margin-top:18px;
+}
+.footer a{
+	font-size:19px;
+	color:#99a9c2;
+	margin-top:18px;
+}
